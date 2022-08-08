@@ -19,7 +19,7 @@
   </head>
 
   <body>
-    <!--Шапка страницы-->
+    <!--Шапка сторінки-->
     <header class="header">
       <div class="container header-menu">
         <nav class="nav header-menu">
@@ -62,14 +62,14 @@
       </div>
     </header>
 
-    <!--Главный контент страницы-->
+    <!--Головний контент сторінки-->
     <main>
       <section class="section projects">
         <div class="container">
           <h1 class="projects-title visually-hidden">Портфоліо</h1>
-          <!-- заголовок скрытый-->
+          <!-- заголовок приховано-->
 
-          <!--Фильтр-->
+          <!--Фільтр-->
           <ul class="filter list">
             <li class="filter-item">
               <button type="button" class="filter-button active">Все</button>
@@ -88,7 +88,7 @@
             </li>
           </ul>
 
-          <!--Список проджектов-->
+          <!--Список проджектів-->
           <ul class="projects-list list">
             <li class="projects-item">
               <a class="projects-link link" href="">
@@ -335,6 +335,19 @@
               </a>
             </li>
           </ul>
+        </div>
+        <!-- Розсилка -->
+        <div class="footer-mailing">
+          <p class="mailing-title">Підпишіться на розсилку</p>
+          <form class="footer-form">
+            <input type="email" name="mail" class="mailing-input" placeholder="E-mail" required />
+            <button class="footer-mailing-button button-studio" type="submit">
+              Підписатися
+              <svg class="footer-button-icon" width="24" height="24">
+                <use href="./images/sprite.svg#icon-letter"></use>
+              </svg>
+            </button>
+          </form>
         </div>
       </div>
     </footer>
