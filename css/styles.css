@@ -652,6 +652,11 @@ h3 {
 .footer-address {
   margin-right: 70px;
 }
+
+.footer-social-network {
+  margin-right: 93px;
+}
+
 .footer-social-network-title {
   display: block;
   font-weight: 700;
@@ -698,6 +703,15 @@ h3 {
 }
 
 /* Розсилка */
+
+.mailing-title {
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+
+  margin-bottom: 20px;
+}
 
 /* ==============Модальне вікно============== */
 .backdrop {
